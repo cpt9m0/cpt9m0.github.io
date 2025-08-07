@@ -9,20 +9,22 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "github-pages", group: :jekyll_plugins
+# Use Jekyll native instead of github-pages gem for better dependency management
+gem "jekyll", "~> 4.3.0"
 
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
-
-# gem "jekyll"
+# Plugins that are compatible with GitHub Pages
+gem "jekyll-github-metadata"
+gem "jekyll-seo-tag"
+gem "jekyll-include-cache"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem "jekyll-archives"
   gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
+  gem "jekyll-remote-theme"
   gem "webrick", "~> 1.8"
 end
