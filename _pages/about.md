@@ -12,7 +12,7 @@ excerpt: "PhD Student in Computer Engineering at Texas A&M University. Researchi
 
 ## About Me
 
-I am a PhD student in Computer Engineering at Texas A&M University, specializing in cybersecurity, system access control, and artificial intelligence applications in security. Currently pursuing my doctoral degree under the supervision of [Dr. Marcus Botacin](https://marcusbotacin.github.io/){:target="_blank"}, I focus on cutting-edge research that bridges the gap between traditional security mechanisms and modern AI-driven solutions.
+I am a PhD student in Computer Engineering at Texas A&M University, specializing in cybersecurity, system access control, and artificial intelligence applications in security. Currently pursuing my doctoral degree under the supervision of [Prof. Dr. Marcus Botacin](https://marcusbotacin.github.io/){:target="_blank"}, I focus on cutting-edge research that bridges the gap between traditional security mechanisms and modern AI-driven solutions.
 
 My research centers on the thesis "Access Control Is All You Need," exploring how access control mechanisms can be enhanced and optimized for modern computing environments. I am passionate about solving real-world security challenges through innovative research and practical implementations.
 
