@@ -39,3 +39,15 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Custom styles for blog post separators */
+.list__item {
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+  border-bottom: 1px dashed #746f6f; /* Dashed line separator */
+  
+}
+
+.list__item:last-child {
+  border-bottom: none; /* Remove border from last item */
+}

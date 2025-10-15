@@ -24,6 +24,36 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+<!-- Custom styles for active navigation -->
+<style>
+  .greedy-nav a.active {
+    color: #7a8288;
+    font-weight: bold;
+    border-bottom: 2px solid #7a8288;
+  }
+  .blog-filters .btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 0.875em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  .blog-filters .btn--primary {
+    background-color: #7a8288;
+    color: #fff;
+  }
+  .blog-filters .btn--primary:hover {
+    background-color: #4d5357;
+  }
+  .blog-filters .btn:not(.btn--primary) {
+    background-color: #f3f3f3;
+    color: #494e52;
+  }
+  .blog-filters .btn:not(.btn--primary):hover {
+    background-color: #e3e3e3;
+  }
+</style>
 
 <!-- Support for MatJax -->
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>

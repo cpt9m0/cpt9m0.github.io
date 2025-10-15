@@ -10,10 +10,16 @@
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% assign current_page = page.url | remove: 'index.html' %}
+            {% assign link_url = link.url | remove: 'index.html' %}
+            {% if current_page == link_url or page.url contains link_url and link_url != '/' %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}" class="active">{{ link.title }}</a></li>
+            {% else %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
