@@ -1,5 +1,8 @@
-{% if site.url %}
-  {% assign base_path = site.url | append: site.baseurl %}
+{% comment %}
+  Use relative paths for assets to work on any domain
+{% endcomment %}
+{% if site.baseurl %}
+  {% assign base_path = site.baseurl %}
 {% else %}
-  {% assign base_path = site.github.url %}
+  {% assign base_path = "" %}
 {% endif %}

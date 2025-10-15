@@ -12,7 +12,7 @@ title                    : "Ali Ayati"
 title_separator          : "-"
 name                     : &name "Ali Ayati"
 description              : &description "Computer Engineering PhD Student at Texas A&M University"
-url                      : "https://cpt9m0.github.io"
+url                      : "https://ali-ayati.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cpt9m0/cpt9m0.github.io"
 
