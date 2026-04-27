@@ -1,8 +1,14 @@
 - date: 16 April, 2025
   headline: "Our paper 'Making Acoustic Side-Channel Attacks on Noisy Keyboards Viable with LLM-Assisted Spectrograms' Typo Correction' accepted to USENIX WOOT '25!"
 
+- date: March 2025
+  headline: "Released EchoCrypt, a high-performance framework for LLM-assisted acoustic side-channel analysis."
+
 - date: January 2025
   headline: "Started new course: CSCE 413 - Software Security as Graduate Teaching Assistant"
+
+- date: October 2024
+  headline: "Launched the Interactive Malware Feature Engineering Lab for hands-on malware ML experimentation."
 
 - date: January 2024
   headline: "Started Ph.D. studies in Computer Engineering at Texas A&M University"

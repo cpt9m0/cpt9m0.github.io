@@ -1,7 +1,7 @@
 ---
 title: "Research"
 layout: gridlay
-description: "Explore Seyyed Ali Ayati's research projects including Real-time EDR systems, Access Control mechanisms, and LLM-assisted cybersecurity solutions."
+description: "Explore Ali Ayati's research in systems security, access control, Windows kernel instrumentation, scalable malware analysis, and LLM-assisted cybersecurity."
 permalink: /research/
 ---
 
@@ -9,12 +9,19 @@ permalink: /research/
 
 <div class="section-card">
 <h3>System Access Control</h3>
-<p>My primary research focuses on access control mechanisms in modern operating systems. I investigate how access control policies can be designed, implemented, and verified to provide strong security guarantees while maintaining usability and performance. This work spans both traditional mandatory access control (MAC) models and emerging approaches for fine-grained privilege management.</p>
+<p>My primary research focuses on access control mechanisms for proactive malware prevention. I investigate how system behavior can be modeled, converted into enforceable policies, and used to block malicious execution paths before runtime compromise.</p>
+<p>This work connects operating-system policy enforcement, kernel-level monitoring, and scalable behavioral analysis to provide strong security guarantees while maintaining low false positive rates.</p>
 </div>
 
 <div class="section-card">
 <h3>Endpoint Detection and Response</h3>
-<p>I am developing a real-time Windows-based Endpoint Detection and Response (EDR) system that operates at the kernel level. This system leverages kernel-mode drivers to monitor system calls, process creation, file operations, and network activity in real-time, enabling rapid detection of malicious behavior. The EDR system uses graph-based algorithms to model system behavior and identify anomalous patterns that may indicate compromise.</p>
+<p>I develop real-time Windows-based Endpoint Detection and Response (EDR) systems that operate at the kernel level. This work uses C/C++ kernel-mode drivers for low-latency system call interception and high-performance threat monitoring.</p>
+<p>My current research includes benchmarking prevention algorithms, analyzing large kernel trace datasets, and building automated evaluation frameworks for malware prevention metrics such as TPR, FPR, precision, and robustness across diverse samples.</p>
+</div>
+
+<div class="section-card">
+<h3>Scalable Security Data Analysis</h3>
+<p>I build analysis pipelines for large-scale security datasets, including parallelized processing of 60M+ kernel trace events. These pipelines use hierarchical data structures, graph analysis, and anomaly detection to identify discriminative access patterns at scale.</p>
 </div>
 
 <div class="section-card">
@@ -24,6 +31,7 @@ permalink: /research/
 <li><strong>Key result:</strong> LLM-assisted correction of noisy spectrogram transcripts significantly improves keystroke recovery accuracy in real-world conditions</li>
 <li><strong>Published at:</strong> USENIX WOOT '25</li>
 </ul>
+<p><a href="{{ site.url }}{{ site.baseurl }}/projects">See EchoCrypt on the Projects page</a></p>
 </div>
 
 <div class="section-card">

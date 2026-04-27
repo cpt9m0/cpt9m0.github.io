@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: gridlay
-description: "Learn more about Seyyed Ali Ayati, his education, research interests in system security, and teaching experience at Texas A&M University."
+description: "Learn more about Ali Ayati, his education, systems security research, AI-driven security analysis, projects, and teaching experience."
 permalink: /about/
 ---
 
@@ -21,8 +21,8 @@ permalink: /about/
 {% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>{% endif %}
 </div>
 <ul style="margin-top: var(--space-4);">
-<li>Ph.D. Computer Engineering - Texas A&M University (2023-Present)</li>
-<li>B.S. Computer Engineering - (2019-2023)</li>
+<li>Ph.D. Computer Engineering - Texas A&M University (2023-Expected 2027)</li>
+<li>B.S. Computer Engineering - Iran University of Science and Technology (2017-2022)</li>
 </ul>
 </div>
 </div>
@@ -31,20 +31,30 @@ permalink: /about/
 <div class="section-card">
 <h3>Education & Research</h3>
 
-<h4>PhD Studies - Texas A&M University (2023-Present)</h4>
+<h4>Ph.D. Studies - Texas A&M University (January 2023-Expected December 2027)</h4>
 <ul>
 <li><strong>GPA:</strong> 3.60/4.00</li>
-<li><strong>Research:</strong> System security, access control, LLMs in cybersecurity</li>
+<li><strong>Research:</strong> Systems security, access control, kernel-level instrumentation, AI-driven security analysis</li>
 <li><strong>Coursework:</strong> Software Security, Software Reverse Engineering, Large Language Models, Deep Learning, Operating Systems, Reinforcement Learning</li>
 <li><strong>Thesis:</strong> "Access Control Is All You Need"</li>
 <li><strong>Advisor:</strong> <a href="https://marcusbotacin.github.io/">Prof. Dr. Marcus Botacin</a></li>
 </ul>
 
+<h4>B.S. in Computer Engineering - Iran University of Science and Technology (September 2017-February 2022)</h4>
+<ul>
+<li><strong>GPA:</strong> 3.50/4.00</li>
+<li><strong>Thesis:</strong> CodART: An Automated Refactoring System</li>
+<li><strong>Advisor:</strong> Dr. Saeed Parsa</li>
+<li><strong>Project:</strong> <a href="https://github.com/m-zakeri/CodART" target="_blank">CodART on GitHub</a></li>
+</ul>
+
 <h4>Current Projects</h4>
 <ul>
-<li><strong>Real-time EDR System:</strong> Windows-based Endpoint Detection and Response with kernel-mode drivers</li>
-<li><strong>Acoustic Side-Channel Attacks:</strong> LLM-assisted correction for keyboard attacks</li>
+<li><strong>Real-time EDR System:</strong> Windows-based Endpoint Detection and Response with C/C++ kernel-mode drivers and proactive access-control generation</li>
+<li><strong>EchoCrypt:</strong> LLM-assisted acoustic side-channel analysis framework for noisy keyboard recordings</li>
+<li><strong>Interactive Malware Feature Engineering Lab:</strong> Web-based environment for Random Forest malware feature experimentation</li>
 </ul>
+<p><a href="{{ site.url }}{{ site.baseurl }}/projects" class="btn-pill">View Projects</a></p>
 </div>
 
 <div class="section-card">
@@ -53,6 +63,7 @@ permalink: /about/
 
 <h4>Graduate Courses:</h4>
 <ul>
+<li>CSCE 704 - Data Analytics Cybersecurity</li>
 <li>CSCE 611 - Graduate Operating Systems</li>
 <li>CSCE 413 - Software Security</li>
 </ul>
@@ -60,8 +71,8 @@ permalink: /about/
 <h4>Undergraduate Courses:</h4>
 <ul>
 <li>CSCE 482/483 - Senior Capstone Design</li>
+<li>CSCE 411 - Design and Analysis of Algorithms</li>
 <li>CSCE 410 - Operating Systems</li>
-<li>CSCE 313 - Introduction to Computer Systems</li>
 </ul>
 </div>
 
@@ -71,9 +82,11 @@ permalink: /about/
 <h4>Research Assistant - Botacin's Lab, Texas A&M University</h4>
 <p><em>January 2024 - Present</em></p>
 <ul>
-<li>Advanced research in system security and access control</li>
-<li>Graph algorithms for system behavior analysis and threat detection</li>
-<li>Kernel-level monitoring solutions for real-time threat detection</li>
+<li>Architect real-time Windows Endpoint Detection and Response systems with C/C++ kernel-mode drivers for low-latency system call interception.</li>
+<li>Designed and benchmarked 7+ prevention algorithms, reducing false positive rates to less than 1.0% while maintaining robust prevention capabilities.</li>
+<li>Engineered a parallelized analysis pipeline for 60M+ kernel trace events using hierarchical structures and anomaly detection.</li>
+<li>Developed automated evaluation infrastructure across 6,000+ malware and benign samples for prevention metrics including TPR, FPR, and precision.</li>
+<li>Built proactive access-control generation techniques that prevent malware execution by enforcing blocking rules before runtime execution.</li>
 </ul>
 
 <h4>Back End Engineer - SynApps</h4>
@@ -97,7 +110,10 @@ permalink: /about/
 
 <div class="section-card">
 <h3>Skills</h3>
-<p><strong>Research:</strong> Large Language Models, Windows Kernel Development, Cybersecurity, System Access Control</p>
-<p><strong>Technical:</strong> Python (Django, Flask, FastAPI, PyTorch, Keras, Pandas, Numpy), Windows Kernel Programming, Machine Learning, Deep Learning, Reinforcement Learning, Graph Algorithms, Parsers and Compilers, CI/CD Pipelines</p>
-<p><strong>Academic:</strong> Software Security, Reverse Engineering, Operating Systems, Algorithm Analysis</p>
+<p><strong>Programming Languages:</strong> Python, C, C++, Java</p>
+<p><strong>Databases:</strong> SQL, MongoDB, Redis, Amazon RDS</p>
+<p><strong>Systems & Security:</strong> Windows Kernel-Mode Driver Framework, PE files, ANTLR, Ghidra, YARA</p>
+<p><strong>Backend & Web:</strong> Django, HTML, CSS, FastAPI, Flask</p>
+<p><strong>Machine Learning:</strong> Graph analysis, Random Forest, PyTorch, PEFT, LoRA/QLoRA</p>
+<p><strong>DevOps & Tooling:</strong> Git, CI/CD, Docker, Linux</p>
 </div>

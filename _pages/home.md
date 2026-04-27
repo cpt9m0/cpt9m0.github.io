@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: homelay
-description: "Seyyed Ali Ayati's personal website. Ph.D. student in Computer Engineering at Texas A&M University researching cybersecurity, access control, and LLMs for security."
+description: "Ali Ayati's personal website. Ph.D. student in Computer Engineering at Texas A&M University researching systems security, access control, kernel instrumentation, and AI-driven security analysis."
 permalink: /
 ---
 
@@ -15,9 +15,10 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Reverse Engineering</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">LLMs for Security</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Windows Kernel Development</a>
+<a href="{{ site.url }}{{ site.baseurl }}/projects" class="chip">Security Projects</a>
 </div>
 
-I am a Ph.D. student in Computer Engineering at Texas A&M University, working under the supervision of [Prof. Dr. Marcus Botacin](https://marcusbotacin.github.io/). My research focuses on system security, access control mechanisms, and the application of large language models in cybersecurity.
+I am a Ph.D. student in Computer Engineering at Texas A&M University, working under the supervision of [Prof. Dr. Marcus Botacin](https://marcusbotacin.github.io/). My research focuses on systems security, access control, kernel-level instrumentation, and AI-driven security analysis.
 
 [📄 Download My Resume](files/resume.pdf){: .btn-pill .btn-pdf :target="_blank"}
 
@@ -31,6 +32,6 @@ Seyyed Ali Ayati, Jin Hyun Park, Yichen Cai, Marcus Botacin</p>
 
 ### About Me
 
-I am a PhD student in Computer Engineering at Texas A&M University. My research focuses on cybersecurity, system access control, and AI applications in security. I am currently working on Windows-based Endpoint Detection and Response (EDR) systems with kernel-mode drivers, and acoustic side-channel attacks enhanced by large language models.
+I am a Ph.D. student in Computer Engineering at Texas A&M University. I build systems for proactive malware prevention and scalable security analysis, including Windows-based Endpoint Detection and Response (EDR) systems with kernel-mode drivers and automated pipelines for analyzing large kernel trace datasets.
 
-I received my Master's degree from Texas A&M University and my Bachelor's degree in Computer Engineering.
+I received my B.S. in Computer Engineering from Iran University of Science and Technology, where my thesis focused on CodART, an automated refactoring system.
