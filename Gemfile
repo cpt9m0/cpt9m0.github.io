@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem "jekyll", "4.3.3"
-gem "sass-embedded", "~> 1.77.0"
+gem "sass-embedded", "~> 1.63.0"
 gem "rack", ">= 2.2.3"
 gem "kramdown-parser-gfm"
 gem 'jekyll-scholar'
