@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: homelay
-sitemap: false
+description: "Seyyed Ali Ayati's personal website. Ph.D. student in Computer Engineering at Texas A&M University researching cybersecurity, access control, and LLMs for security."
 permalink: /
 ---
 

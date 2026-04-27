@@ -29,7 +29,11 @@ baseurl: ""
 url: "https://ali-ayati.com"
 
 analytics:
-  google_id: ""
+  google_id: "G-8PN2TMLNCT"
+
+# SEO Verification
+google_site_verification: ""
+bing_site_verification: ""
 
 # ============================================================
 # STEP 4: Choose Your Pages
@@ -107,3 +111,4 @@ exclude:
   - markdown_generator
   - talkmap
   - AGENTS.md
+  - jekyll.log

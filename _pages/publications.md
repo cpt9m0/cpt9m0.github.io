@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: gridlay
-sitemap: false
+description: "List of academic publications and research papers by Seyyed Ali Ayati on cybersecurity, acoustic side-channel attacks, and system security."
 permalink: /publications/
 ---
 

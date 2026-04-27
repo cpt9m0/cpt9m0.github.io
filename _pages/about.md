@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: gridlay
-sitemap: false
+description: "Learn more about Seyyed Ali Ayati, his education, research interests in system security, and teaching experience at Texas A&M University."
 permalink: /about/
 ---
 

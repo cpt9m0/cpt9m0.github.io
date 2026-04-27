@@ -1,7 +1,7 @@
 ---
 title: "Research"
 layout: gridlay
-sitemap: false
+description: "Explore Seyyed Ali Ayati's research projects including Real-time EDR systems, Access Control mechanisms, and LLM-assisted cybersecurity solutions."
 permalink: /research/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 layout: gridlay
-sitemap: false
+description: "Articles and blog posts by Seyyed Ali Ayati on cybersecurity, reverse engineering, and computer engineering topics."
 permalink: /blogs/
 ---
 
