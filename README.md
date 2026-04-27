@@ -1,30 +1,47 @@
-#  My Personal Web Page
-Welcome to the source code for my personal website. Here you can find information about me, my projects, and links to my online presence.
+# Ali Ayati - Personal Website
+
+Source code for [ali-ayati.com](https://ali-ayati.com) — my personal academic webpage.
+
+Built with [Jekyll](https://jekyllrb.com/) using the [Academic Website Template](https://github.com/sbryngelson/academic-website-template).
 
 ## Live URLs
+
 1. [cpt9m0.github.io](https://cpt9m0.github.io)
 2. [ali-ayati.com](https://ali-ayati.com)
 
 ## Usage
+
 ```sh
-# Install dependencies (first time setup)
-npm run install
+# Install JS dependencies and Ruby gems
+npm run build:js
+bundle install
 
-# Build and serve the site
-npm run serve
+# Build and serve with live reload
+bundle exec jekyll serve --livereload
 
-# Or simply use:
-npm start
-
-# Just build without serving
+# Build JS, then Jekyll build
 npm run build
+
+# Full: build JS then serve
+npm run serve
 ```
 
-## Features
-- Personal profile and biography
-- List of publications and projects
-- Contact information
-- Technical Blog
+## Development
 
-# Credits
-This website is based on the [Academic Pages](https://github.com/academicpages/academicpages.github.io) template.
+- Branch `dev` for development; merge to `main` for production.
+- GitHub Actions on pushes to `main` builds and deploys to GitHub Pages.
+
+## Features
+
+- Personal profile and biography
+- BibTeX-powered publications via Jekyll Scholar
+- Research overview
+- Teaching experience
+- Technical blog
+- Dark mode with system preference detection
+- Site-wide search (Cmd+K)
+- Copy BibTeX button
+
+## Credits
+
+Based on the [Academic Website Template](https://github.com/sbryngelson/academic-website-template) by S. Bryngelson.

@@ -1,81 +1,103 @@
 ---
-permalink: /
-title: "Ali Ayati - Computer Engineering PhD Student"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
-excerpt: "PhD Student in Computer Engineering at Texas A&M University. Researching access control, system security, and reverse engineering."
+title: "About"
+layout: gridlay
+sitemap: false
+permalink: /about/
 ---
 
-[📄 Download My Resume](files/resume.pdf){: .btn .btn--primary}{:target="_blank"}
+## About
 
-## About Me
+<div class="section-card">
+<div class="pi-card">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" class="pi-photo" alt="{{ site.name }}" loading="lazy">
+<div>
+<h3 class="pi-name">{{ site.name }}</h3>
+<p style="font-style: italic; color: var(--text-secondary);">{{ site.title }}, {{ site.institution }}</p>
+<div class="pi-links">
+{% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+{% if site.links.cv and site.links.cv != "" %}<a href="{{ site.url }}{{ site.baseurl }}/{{ site.links.cv }}" class="icon-link" title="CV"><i class="ai ai-cv"></i></a>{% endif %}
+{% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+{% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
+{% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>{% endif %}
+</div>
+<ul style="margin-top: var(--space-4);">
+<li>Ph.D. Computer Engineering - Texas A&M University (2023-Present)</li>
+<li>B.S. Computer Engineering - (2019-2023)</li>
+</ul>
+</div>
+</div>
+</div>
 
-- PhD student in Computer Engineering at Texas A&M University
-- Research focus: cybersecurity, system access control, and AI applications in security
-- Advisor: [Prof. Dr. Marcus Botacin](https://marcusbotacin.github.io/){:target="_blank"}
-- Thesis: "Access Control Is All You Need"
+<div class="section-card">
+<h3>Education & Research</h3>
 
-## Education & Research
+<h4>PhD Studies - Texas A&M University (2023-Present)</h4>
+<ul>
+<li><strong>GPA:</strong> 3.60/4.00</li>
+<li><strong>Research:</strong> System security, access control, LLMs in cybersecurity</li>
+<li><strong>Coursework:</strong> Software Security, Software Reverse Engineering, Large Language Models, Deep Learning, Operating Systems, Reinforcement Learning</li>
+<li><strong>Thesis:</strong> "Access Control Is All You Need"</li>
+<li><strong>Advisor:</strong> <a href="https://marcusbotacin.github.io/">Prof. Dr. Marcus Botacin</a></li>
+</ul>
 
-### PhD Studies - Texas A&M University (2023-Present)
-- **GPA:** 3.60/4.00
-- **Research:** System security, access control, LLMs in cybersecurity
-- **Coursework:** Software Security, Software Reverse Engineering, Large Language Models, Deep Learning, Operating Systems, Reinforcement Learning
+<h4>Current Projects</h4>
+<ul>
+<li><strong>Real-time EDR System:</strong> Windows-based Endpoint Detection and Response with kernel-mode drivers</li>
+<li><strong>Acoustic Side-Channel Attacks:</strong> LLM-assisted correction for keyboard attacks</li>
+</ul>
+</div>
 
-### Current Projects
-- **Real-time EDR System:** Windows-based Endpoint Detection and Response with kernel-mode drivers
-- **Acoustic Side-Channel Attacks:** LLM-assisted correction for keyboard attacks 
+<div class="section-card">
+<h3>Teaching Experience</h3>
+<p><strong>Graduate Research and Teaching Assistant</strong> - Texas A&M University</p>
 
-## Publications
+<h4>Graduate Courses:</h4>
+<ul>
+<li>CSCE 611 - Graduate Operating Systems</li>
+<li>CSCE 413 - Software Security</li>
+</ul>
 
-- Seyyed Ali Ayati, Jin Hyun Park, Yichen Cai, Marcus Botacin (2025). "Making Acoustic Side-Channel Attacks on Noisy Keyboards Viable with LLM-Assisted Spectrograms' Typo Correction." *USENIX WOOT '25* → [Paper Repo](https://github.com/Botacin-s-Lab/EchoCrypt){:target="_blank"}
+<h4>Undergraduate Courses:</h4>
+<ul>
+<li>CSCE 482/483 - Senior Capstone Design</li>
+<li>CSCE 410 - Operating Systems</li>
+<li>CSCE 313 - Introduction to Computer Systems</li>
+</ul>
+</div>
 
-## Teaching Experience
+<div class="section-card">
+<h3>Experience</h3>
 
-**Graduate Research and Teaching Assistant** - Texas A&M University
+<h4>Research Assistant - Botacin's Lab, Texas A&M University</h4>
+<p><em>January 2024 - Present</em></p>
+<ul>
+<li>Advanced research in system security and access control</li>
+<li>Graph algorithms for system behavior analysis and threat detection</li>
+<li>Kernel-level monitoring solutions for real-time threat detection</li>
+</ul>
 
-**Graduate Courses:**
-- CSCE 611 - Graduate Operating Systems
-- CSCE 413 - Software Security
+<h4>Back End Engineer - SynApps</h4>
+<p><em>January 2022 - December 2022</em></p>
+<ul>
+<li>Enhanced Django-based backend systems</li>
+<li>Designed RESTful API endpoints</li>
+<li>Collaborated with distributed teams for feature deployment</li>
+</ul>
+</div>
 
-**Undergraduate Courses:**
-- CSCE 482/483 - Senior Capstone Design
-- CSCE 410 - Operating Systems
-- CSCE 313 - Introduction to Computer Systems
+<div class="section-card">
+<h3>Certifications</h3>
+<ul>
+<li><strong>GitHub Foundations</strong> - GitHub</li>
+<li><strong>Data Parallelism: Training Deep Learning Models on Multiple GPUs</strong> - NVIDIA</li>
+<li><strong>Fundamentals of Accelerated Data Science</strong> - NVIDIA</li>
+<li><strong>GRAD Aggies Professional Development Certificate</strong> - Texas A&M University</li>
+</ul>
+</div>
 
-## Experience
-
-### Research Assistant - Botacin's Lab, Texas A&M University
-*January 2024 - Present*
-- Advanced research in system security and access control
-- Graph algorithms for system behavior analysis and threat detection
-- Kernel-level monitoring solutions for real-time threat detection
-
-### Back End Engineer - SynApps
-*January 2022 - December 2022*
-- Enhanced Django-based backend systems
-- Designed RESTful API endpoints
-- Collaborated with distributed teams for feature deployment 
-
-## Certifications
-
-- **GitHub Foundations** - GitHub
-- **Data Parallelism: Training Deep Learning Models on Multiple GPUs** - NVIDIA
-- **Fundamentals of Accelerated Data Science** - NVIDIA
-- **GRAD Aggies Professional Development Certificate** - Texas A&M University
-
-## Skills
-
-**Research:** Large Language Models, Windows Kernel Development, Cybersecurity, System Access Control
-
-**Technical:** Python (Django, Flask, FastAPI, PyTorch, Keras, Pandas, Numpy), Windows Kernel Programming, Machine Learning, Deep Learning, Reinforcement Learning, Graph Algorithms, Parsers and Compilers, CI/CD Pipelines
-
-**Academic:** Software Security, Reverse Engineering, Operating Systems, Algorithm Analysis
-
----
-
-**Connect:**
-- [LinkedIn](https://www.linkedin.com/in/aliayati/){:target="_blank"}
-- [GitHub](https://github.com/cpt9m0){:target="_blank"}
+<div class="section-card">
+<h3>Skills</h3>
+<p><strong>Research:</strong> Large Language Models, Windows Kernel Development, Cybersecurity, System Access Control</p>
+<p><strong>Technical:</strong> Python (Django, Flask, FastAPI, PyTorch, Keras, Pandas, Numpy), Windows Kernel Programming, Machine Learning, Deep Learning, Reinforcement Learning, Graph Algorithms, Parsers and Compilers, CI/CD Pipelines</p>
+<p><strong>Academic:</strong> Software Security, Reverse Engineering, Operating Systems, Algorithm Analysis</p>
+</div>

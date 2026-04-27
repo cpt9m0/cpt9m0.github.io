@@ -1,0 +1,29 @@
+---
+---
+
+$baseurl: "{{ site.url }}{{ site.baseurl }}";
+
+// Base
+@import "base/variables";
+@import "base/reset";
+@import "base/typography";
+
+// Components
+@import "components/card";
+@import "components/navbar";
+@import "components/buttons";
+@import "components/footer";
+@import "components/profile";
+@import "components/publication";
+@import "components/search";
+@import "components/chips";
+
+// Layouts
+@import "layouts/grid";
+@import "layouts/home";
+@import "layouts/team";
+@import "layouts/research";
+
+// Utilities
+@import "utilities/dark-mode";
+@import "utilities/animations";
