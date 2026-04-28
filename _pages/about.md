@@ -108,9 +108,9 @@ permalink: /about/
 <div class="section-card">
 <h3>Certifications</h3>
 <ul>
-<li><strong><a href="https://www.credly.com/badges/dfa3484e-ab86-4bda-84da-173c6b37d452/linked_in_profile" target="_blank">GitHub Foundations</a></strong> - GitHub</li>
-<li><strong><a href="https://learn.nvidia.com/certificates?id=1cLSxHE0R0SHlVW6iZE0MQ" target="_blank">Data Parallelism: How to Train Deep Learning Models on Multiple GPUs</a></strong> - NVIDIA</li>
-<li><strong><a href="https://learn.nvidia.com/certificates?id=pVK2Ck4OQEiVGgbVnyZvAg" target="_blank">Fundamentals of Accelerated Data Science</a></strong> - NVIDIA</li>
+<li><strong><a href="https://www.credly.com/badges/dfa3484e-ab86-4bda-84da-173c6b37d452/linked_in_profile" target="_blank" rel="noopener noreferrer">GitHub Foundations</a></strong> - GitHub</li>
+<li><strong><a href="https://learn.nvidia.com/certificates?id=1cLSxHE0R0SHlVW6iZE0MQ" target="_blank" rel="noopener noreferrer">Data Parallelism: How to Train Deep Learning Models on Multiple GPUs</a></strong> - NVIDIA</li>
+<li><strong><a href="https://learn.nvidia.com/certificates?id=pVK2Ck4OQEiVGgbVnyZvAg" target="_blank" rel="noopener noreferrer">Fundamentals of Accelerated Data Science</a></strong> - NVIDIA</li>
 <li><strong>GRAD Aggies Professional Development Certificate</strong> - Texas A&M University</li>
 </ul>
 </div>
