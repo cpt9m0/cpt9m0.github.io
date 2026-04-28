@@ -59,20 +59,27 @@ permalink: /about/
 
 <div class="section-card">
 <h3>Teaching Experience</h3>
-<p><strong>Graduate Research and Teaching Assistant</strong> - Texas A&M University</p>
+<p><strong>Graduate Research and Teaching Assistant</strong> - Texas A&M University & Iran University of Science and Technology</p>
 
-<h4>Graduate Courses:</h4>
+<h4>Texas A&M University - Graduate Courses:</h4>
 <ul>
 <li>CSCE 704 - Data Analytics Cybersecurity</li>
 <li>CSCE 611 - Graduate Operating Systems</li>
-<li>CSCE 413 - Software Security</li>
 </ul>
 
-<h4>Undergraduate Courses:</h4>
+<h4>Texas A&M University - Undergraduate Courses:</h4>
 <ul>
+<li>CSCE 413 - Software Security</li>
 <li>CSCE 482/483 - Senior Capstone Design</li>
 <li>CSCE 411 - Design and Analysis of Algorithms</li>
 <li>CSCE 410 - Operating Systems</li>
+</ul>
+
+<h4>Iran University of Science and Technology</h4>
+<ul>
+<li>CSCE 420 - Artificial Intelligence</li>
+<li>ECEN 248 - Digital Systems Design</li>
+<li>CSCE 434 - Compiler Design</li>
 </ul>
 </div>
 
@@ -101,9 +108,9 @@ permalink: /about/
 <div class="section-card">
 <h3>Certifications</h3>
 <ul>
-<li><strong>GitHub Foundations</strong> - GitHub</li>
-<li><strong>Data Parallelism: Training Deep Learning Models on Multiple GPUs</strong> - NVIDIA</li>
-<li><strong>Fundamentals of Accelerated Data Science</strong> - NVIDIA</li>
+<li><strong><a href="https://www.credly.com/badges/dfa3484e-ab86-4bda-84da-173c6b37d452/linked_in_profile" target="_blank" rel="noopener noreferrer">GitHub Foundations</a></strong> - GitHub</li>
+<li><strong><a href="https://learn.nvidia.com/certificates?id=1cLSxHE0R0SHlVW6iZE0MQ" target="_blank" rel="noopener noreferrer">Data Parallelism: How to Train Deep Learning Models on Multiple GPUs</a></strong> - NVIDIA</li>
+<li><strong><a href="https://learn.nvidia.com/certificates?id=pVK2Ck4OQEiVGgbVnyZvAg" target="_blank" rel="noopener noreferrer">Fundamentals of Accelerated Data Science</a></strong> - NVIDIA</li>
 <li><strong>GRAD Aggies Professional Development Certificate</strong> - Texas A&M University</li>
 </ul>
 </div>

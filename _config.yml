@@ -40,10 +40,10 @@ bing_site_verification: ""
 # ============================================================
 nav_pages:
   - name: about
-  - name: publications
-  - name: research
-  - name: projects
   - name: teaching
+  - name: research
+  - name: publications
+  - name: projects
   - name: blogs
 
 # ============================================================
