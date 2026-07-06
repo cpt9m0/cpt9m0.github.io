@@ -3,9 +3,10 @@ layout: post
 title: "Spectrograms, LoRAs, and Typos: Inside an Acoustic Side-Channel Attack Pipeline"
 date: 2026-07-06 11:00:00
 author: Ali Ayati
+description: "A technical walkthrough of the EchoCrypt acoustic side-channel pipeline: Mel spectrograms, Vision Transformers, and QLoRA-fine-tuned LLM typo correction for keystroke recovery."
 ---
 
-This is the technical follow-up to [my post on why your Zoom call might be leaking your password](/blogs/). If you want the "should I be worried" version, read that one. This one is for people who want to know exactly how a stream of keyboard clicks turns into recovered text, including the parts that didn't work.
+This is the technical follow-up to [my post on why your Zoom call might be leaking your password](/blogs/your-zoom-call-is-leaking-your-password/). If you want the "should I be worried" version, read that one. This one is for people who want to know exactly how a stream of keyboard clicks turns into recovered text, including the parts that didn't work.
 
 The full paper is [Making Acoustic Side-Channel Attacks on Noisy Keyboards Viable with LLM-Assisted Spectrograms' Typo Correction](https://www.usenix.org/system/files/woot25-ayati.pdf) (USENIX WOOT '25), and the code and fine-tuned weights are public on [GitHub](https://github.com/Botacin-s-Lab/EchoCrypt) and [HuggingFace](https://huggingface.co/seyyedaliayati/zoom_model).
 

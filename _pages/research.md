@@ -5,7 +5,7 @@ description: "Explore Ali Ayati's research in systems security, access control, 
 permalink: /research/
 ---
 
-## Research
+# Research
 
 <div class="section-card">
 <h3>System Access Control</h3>

@@ -1,10 +1,11 @@
 ---
 title: "Teaching"
 layout: gridlay
+description: "Courses Ali Ayati has taught and assisted as a Graduate Teaching Assistant at Texas A&M University, including software security, operating systems, and data analytics for cybersecurity."
 permalink: /teaching/
 ---
 
-## Teaching
+# Teaching
 
 I am a Graduate Research and Teaching Assistant at Texas A&M University, Department of Computer Science and Engineering.
 

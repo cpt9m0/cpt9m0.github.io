@@ -3,24 +3,23 @@ layout: post
 title: "Access Control Is All You Need"
 date: 2025-04-27
 author: Ali Ayati
+description: "Why getting access control right eliminates whole classes of security vulnerabilities, and how my PhD research approaches it through Windows kernel internals and LLMs."
 ---
 
-Access control is the foundation of system security. Every operating system, application, and service must enforce who can do what — and this seemingly simple question is surprisingly hard to get right.
+Access control is the part of system security I keep coming back to. Every operating system, application, and service has to decide who is allowed to do what, and getting that decision right is a lot harder than it sounds.
 
-I chose "Access Control Is All You Need" as the working title of my PhD thesis because I believe that getting access control right eliminates an enormous class of security vulnerabilities. Buffer overflows, privilege escalation, information disclosure — many of the most damaging attacks succeed because access control policies are missing, incomplete, or incorrectly implemented.
+I picked "Access Control Is All You Need" as the working title of my PhD thesis because I think most of the damage in security traces back to it. Buffer overflows, privilege escalation, information disclosure: a lot of the worst attacks work because an access control policy was missing, incomplete, or implemented wrong in the first place.
 
-## Why Access Control Matters
+## Why access control matters
 
-Consider the Windows kernel. Its access control model is among the most complex in any shipping OS, with security descriptors, access tokens, mandatory integrity levels, and privilege checks spread across hundreds of system calls. Understanding how these pieces interact is essential for building secure systems on Windows.
+Take the Windows kernel. Its access control model is one of the most complicated in any shipping OS, with security descriptors, access tokens, mandatory integrity levels, and privilege checks scattered across hundreds of system calls. You can't build something secure on Windows without understanding how those pieces fit together, and most of the time they don't fit the way the documentation implies.
 
-In my research, I explore:
+My research digs into three questions:
 
-- **How access control models evolve** across OS versions and how backward compatibility introduces security gaps
-- **Where access control checks are missing** in common software patterns and how to detect these gaps automatically
-- **How LLMs can help** analyze and generate access control policies from natural language descriptions
+- how access control models change across OS versions, and where backward compatibility quietly opens security gaps
+- where access control checks go missing in common software patterns, and how to find those gaps automatically
+- how LLMs can help analyze and generate access control policies from plain-language descriptions
 
-## What's Next
+## What's next
 
-This blog will document my journey through PhD research, system security, kernel development, and the occasional detour into interesting side projects. If you're working on access control, EDR systems, or applying LLMs to security problems, I'd love to hear from you.
-
-Stay tuned for more posts on Windows internals, kernel driver development, and acoustic side-channel attacks.
+I'm using this blog to write up what I run into: PhD research, system security, kernel work, and whatever side projects pull me off course. If you work on access control, EDR systems, or applying LLMs to security problems, get in touch. More soon on Windows internals, kernel driver development, and acoustic side-channel attacks.

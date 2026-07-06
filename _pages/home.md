@@ -5,7 +5,7 @@ description: "Ali Ayati's personal website. Ph.D. student in Computer Engineerin
 permalink: /
 ---
 
-<h2 class="home-hero">{{ site.name }}</h2>
+<h1 class="home-hero">{{ site.name }}</h1>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
