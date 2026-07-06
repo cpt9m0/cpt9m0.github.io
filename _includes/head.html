@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }} - {{ site.name | escape }}{% else %}{{ site.name | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
+  {% if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
 
   {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}" />{% endif %}
   {% if site.bing_site_verification %}<meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />{% endif %}
