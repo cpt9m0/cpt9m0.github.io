@@ -5,7 +5,7 @@ description: "Learn more about Ali Ayati, his education, systems security resear
 permalink: /about/
 ---
 
-## About
+# About
 
 <div class="section-card">
 <div class="pi-card">

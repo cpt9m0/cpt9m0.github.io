@@ -3,6 +3,7 @@ layout: post
 title: "Your Zoom Call Might Be Leaking Your Password"
 date: 2026-07-06 12:00:00
 author: Ali Ayati
+description: "A USENIX WOOT '25 paper shows keystrokes can be recovered from a live Zoom call using acoustic side channels and LLM-assisted typo correction — even over compressed, noise-suppressed audio."
 ---
 
 You mute your mic when you're not talking. You'd never read a password out loud on a call. But if you type your password while the call is live, muted or not, you might be handing it over anyway.
@@ -51,4 +52,4 @@ I'm not saying throw out passphrases. I'm saying the security/usability tradeoff
 
 This is research, not a mass-deployed exploit, and it has real limits. It was tested on one keyboard (a MacBook Pro), with synthetic rather than real ambient noise, and it doesn't yet handle space, backspace, or enter keys. What it proves is that the ceiling on this class of attack is a lot higher than people assumed, not that there's a tool in the wild targeting your keyboard today.
 
-Still, the practical takeaway doesn't require panic: don't type sensitive credentials while a mic is live nearby, and lean on MFA and hardware keys rather than trusting a clever passphrase to do all the work. If you want the technical details, the next post digs into how the classification and correction pipeline actually works.
+Still, the practical takeaway doesn't require panic: don't type sensitive credentials while a mic is live nearby, and lean on MFA and hardware keys rather than trusting a clever passphrase to do all the work. If you want the technical details, [the next post](/blogs/spectrograms-loras-and-typos/) digs into how the classification and correction pipeline actually works.

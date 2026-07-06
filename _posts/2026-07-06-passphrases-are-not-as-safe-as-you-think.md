@@ -3,6 +3,7 @@ layout: post
 title: "Passphrases Were Supposed to Save Us. LLMs Might Take That Back."
 date: 2026-07-06 10:00:00
 author: Ali Ayati
+description: "Why long, memorable passphrases can be weaker than equal-entropy random strings against LLM-assisted acoustic side-channel attacks — and why the entropy argument misses it."
 ---
 
 For years, the standard security advice has been: stop using short, clever passwords, start using long, memorable passphrases. "Four random words" beats "P@ssw0rd1" because it's harder to brute-force and easier for a human to remember. That advice is grounded in real math. It's also, according to a finding in our USENIX WOOT '25 paper, quietly assuming an attacker that no longer describes the state of the art.

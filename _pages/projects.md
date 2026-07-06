@@ -5,7 +5,7 @@ description: "Selected systems security, machine learning, and infrastructure pr
 permalink: /projects/
 ---
 
-## Projects
+# Projects
 
 <div class="section-card">
 <h3>EchoCrypt: High-Performance Side-Channel Analysis Framework</h3>

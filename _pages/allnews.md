@@ -1,10 +1,11 @@
 ---
 title: "News"
 layout: gridlay
+description: "News and updates from Ali Ayati — publications, talks, and milestones in systems security and AI-driven security research."
 permalink: /allnews.html
 ---
 
-## News
+# News
 
 <div class="section-card" markdown="0">
 <div class="news-timeline">

@@ -5,7 +5,7 @@ description: "List of academic publications and research papers by Seyyed Ali Ay
 permalink: /publications/
 ---
 
-## Publications
+# Publications
 
 <input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 
