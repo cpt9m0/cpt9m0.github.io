@@ -86,6 +86,17 @@ permalink: /about/
 <div class="section-card">
 <h3>Experience</h3>
 
+<h4>Software Engineer Intern - Inertia Systems</h4>
+<p><em>May 2026 - August 2026</em></p>
+<ul>
+<li>Focused on full-stack feature delivery, cloud automation, and AI-driven data pipelines.</li>
+<li>Parsed Revit (BIM) structural files into a Graph Database to build a RAG pipeline for intelligent contextual search.</li>
+<li>Architected a cloud-based background scheduling engine built on PHP, Doctrine ORM, and AWS infrastructure (EventBridge, S3, SSM).</li>
+<li>Built a React 19/TypeScript toast engine for the frontend design system, covered by 80+ Vitest unit and accessibility tests.</li>
+<li>Optimized database write overhead by 60% and secured multi-tenant data boundaries on batch operations.</li>
+<li>Authored 15+ merged PRs, reviewed 10+ teammate PRs, and leveraged AI coding agents under strict code-review and testing standards.</li>
+</ul>
+
 <h4>Research Assistant - Botacin's Lab, Texas A&M University</h4>
 <p><em>January 2024 - Present</em></p>
 <ul>
