@@ -30,3 +30,8 @@ This is a Jekyll-based personal academic website (Ali Ayati's site, deployed at 
 - `.github/workflows/deploy.yml` builds with `bundle exec jekyll build` (`JEKYLL_ENV=production`, Ruby 3.2) and deploys to GitHub Pages on every push to `main`.
 - `_config.yml` sets `url: "https://ali-ayati.com"`, `baseurl: ""`, and GitHub repo `cpt9m0/cpt9m0.github.io`. `CNAME` and README live URLs must stay consistent with any URL changes.
 - `_config.yml` `exclude:` keeps `Gemfile`, `package.json`, `vendor/`, `markdown_generator/`, `talkmap/`, `AGENTS.md`, etc. out of the built `_site/` — don't expect source-only files to appear there.
+
+## Claude Code GitHub Action
+
+- Tagging `@claude` in an issue (on open) or in an issue/PR comment triggers `.github/workflows/claude.yml`, which runs Claude Code in GitHub Actions to implement the request.
+- When creating a branch and opening a pull request from that workflow, branch off `dev` and open the PR against `dev` — never against `main`. `main` is production and pushing to it deploys to ali-ayati.com automatically via `.github/workflows/deploy.yml`.
