@@ -34,4 +34,4 @@ This is a Jekyll-based personal academic website (Ali Ayati's site, deployed at 
 ## Claude Code GitHub Action
 
 - Tagging `@claude` in an issue (on open) or in an issue/PR comment triggers `.github/workflows/claude.yml`, which runs Claude Code in GitHub Actions to implement the request.
-- When creating a branch and opening a pull request from that workflow, branch off `dev` and open the PR against `dev` — never against `main`. `main` is production and pushing to it deploys to ali-ayati.com automatically via `.github/workflows/deploy.yml`.
+- When creating a branch and opening a pull request from that workflow, branch off `main` and open the PR against `main`. `main` is production and merging a PR into it deploys to ali-ayati.com automatically via `.github/workflows/deploy.yml` — the PR itself does not deploy anything, only the merge does, so review still happens before anything goes live.
