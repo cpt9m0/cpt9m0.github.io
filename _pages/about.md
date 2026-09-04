@@ -45,7 +45,7 @@ permalink: /about/
 <li><strong>GPA:</strong> 3.50/4.00</li>
 <li><strong>Thesis:</strong> CodART: An Automated Refactoring System</li>
 <li><strong>Advisor:</strong> Dr. Saeed Parsa</li>
-<li><strong>Project:</strong> <a href="https://github.com/m-zakeri/CodART" target="_blank">CodART on GitHub</a></li>
+<li><strong>Project:</strong> <a href="https://github.com/m-zakeri/CodART" target="_blank" rel="noopener noreferrer">CodART on GitHub</a></li>
 </ul>
 
 <p>See the <a href="{{ site.url }}{{ site.baseurl }}/projects">Projects</a> page for details on current and past work.</p>

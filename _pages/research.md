@@ -17,7 +17,7 @@ permalink: /research/
 <h3>Endpoint Detection and Response</h3>
 <p>I develop real-time Windows-based Endpoint Detection and Response (EDR) systems that operate at the kernel level. This work uses C/C++ kernel-mode drivers for low-latency system call interception and high-performance threat monitoring.</p>
 <p>My current research includes benchmarking prevention algorithms, analyzing large kernel trace datasets, and building automated evaluation frameworks for malware prevention metrics such as TPR, FPR, precision, and robustness across diverse samples.</p>
-<p><a href="{{ site.url }}{{ site.baseurl }}/projects">See the Real-time EDR System on the Projects page</a></p>
+<p><a href="{{ site.url }}{{ site.baseurl }}/projects">See the Real-time Windows EDR System on the Projects page</a></p>
 </div>
 
 <div class="section-card">
