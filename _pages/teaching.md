@@ -29,7 +29,7 @@ I am a Graduate Research and Teaching Assistant at Texas A&M University, Departm
 <p>Algorithm design and analysis topics including correctness, complexity, graph algorithms, dynamic programming, and optimization techniques.</p>
 
 <h4>CSCE 482/483 - Senior Capstone Design</h4>
-<p><em>Spring 2024, Fall 2024</em></p>
+<p><em>Spring 2024, Fall 2024, Fall 2026</em></p>
 <p>Senior-level project course where students design and implement significant software or hardware projects. I mentor student teams on project planning, architecture, implementation, and documentation.</p>
 </div>
 
