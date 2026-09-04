@@ -48,39 +48,12 @@ permalink: /about/
 <li><strong>Project:</strong> <a href="https://github.com/m-zakeri/CodART" target="_blank">CodART on GitHub</a></li>
 </ul>
 
-<h4>Current Projects</h4>
-<ul>
-<li><strong>Real-time EDR System:</strong> Windows-based Endpoint Detection and Response with C/C++ kernel-mode drivers and proactive access-control generation</li>
-<li><strong>EchoCrypt:</strong> LLM-assisted acoustic side-channel analysis framework for noisy keyboard recordings</li>
-<li><strong>Interactive Malware Feature Engineering Lab:</strong> Web-based environment for Random Forest malware feature experimentation</li>
-</ul>
-<p><a href="{{ site.url }}{{ site.baseurl }}/projects" class="btn-pill">View Projects</a></p>
+<p>See the <a href="{{ site.url }}{{ site.baseurl }}/projects">Projects</a> page for details on current and past work.</p>
 </div>
 
 <div class="section-card">
-<h3>Teaching Experience</h3>
-<p><strong>Graduate Research and Teaching Assistant</strong> - Texas A&M University & Iran University of Science and Technology</p>
-
-<h4>Texas A&M University - Graduate Courses:</h4>
-<ul>
-<li>CSCE 704 - Data Analytics Cybersecurity</li>
-<li>CSCE 611 - Graduate Operating Systems</li>
-</ul>
-
-<h4>Texas A&M University - Undergraduate Courses:</h4>
-<ul>
-<li>CSCE 413 - Software Security</li>
-<li>CSCE 482/483 - Senior Capstone Design</li>
-<li>CSCE 411 - Design and Analysis of Algorithms</li>
-<li>CSCE 410 - Operating Systems</li>
-</ul>
-
-<h4>Iran University of Science and Technology</h4>
-<ul>
-<li>CSCE 420 - Artificial Intelligence</li>
-<li>ECEN 248 - Digital Systems Design</li>
-<li>CSCE 434 - Compiler Design</li>
-</ul>
+<h3>Teaching</h3>
+<p><strong>Graduate Research and Teaching Assistant</strong> - Texas A&M University & Iran University of Science and Technology. See the <a href="{{ site.url }}{{ site.baseurl }}/teaching">Teaching</a> page for the full course list.</p>
 </div>
 
 <div class="section-card">

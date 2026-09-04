@@ -8,6 +8,18 @@ permalink: /projects/
 # Projects
 
 <div class="section-card">
+<h3>Real-time Windows EDR System</h3>
+<p><em>January 2024 - Present</em></p>
+<ul>
+<li>Architected a real-time Windows Endpoint Detection and Response system with C/C++ kernel-mode drivers for low-latency system call interception.</li>
+<li>Designed and benchmarked 7+ prevention algorithms, reducing false positive rates to less than 1.0% while maintaining robust prevention capabilities.</li>
+<li>Engineered a parallelized analysis pipeline for 60M+ kernel trace events using hierarchical structures and anomaly detection.</li>
+<li>Developed automated evaluation infrastructure across 6,000+ malware and benign samples for prevention metrics including TPR, FPR, and precision.</li>
+<li>Built proactive access-control generation techniques that prevent malware execution by enforcing blocking rules before runtime execution.</li>
+</ul>
+</div>
+
+<div class="section-card">
 <h3>EchoCrypt: High-Performance Side-Channel Analysis Framework</h3>
 <p><em>August 2024 - March 2025</em></p>
 <p><a href="https://github.com/Botacin-s-Lab/EchoCrypt" target="_blank">GitHub repository</a></p>
