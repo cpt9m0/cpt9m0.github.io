@@ -6,7 +6,7 @@ author: Ali Ayati
 description: "Won the Best Research Presentation Award at the inaugural Texas Security Workshop (TSW) at UT Dallas for 'Towards Automated Behavioral Access-Control Rule Generation'."
 ---
 
-I'm happy to share that I won the **Best Research Presentation Award** at the inaugural Texas Security Workshop (TSW) at The University of Texas at Dallas on September 26, 2026.
+I'm happy to share that I won the **Best Research Presentation Award** at the inaugural [Texas Security Workshop](https://texassecurityworkshop.org/) (TSW) at The University of Texas at Dallas on September 26, 2026.
 
 My talk, *Towards Automated Behavioral Access-Control Rule Generation*, presented an automated framework that turns execution provenance graphs into proactive access-control policies, with no hand-written rules needed.
 
