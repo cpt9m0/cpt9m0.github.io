@@ -16,4 +16,4 @@ My talk, *Towards Automated Behavioral Access-Control Rule Generation*, presente
 
 Thank you to the organizers Imtiaz Karim and Kangkook Jee, steering chair Guofei Gu, and my session chair Blaine Hoak for a great first edition, and to everyone who came with sharp questions. I'm grateful to my advisor, Professor Marcus Botacin, and the lab for their support. See you next year in San Antonio!
 
-You can also read the [original announcement on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity/7509982465466306560/).
+You can also read the [original announcement on LinkedIn](https://www.linkedin.com/posts/aliayati_cybersecurity-phd-texas-ugcPost-7509982462656118784-fJeo/).

@@ -12,9 +12,10 @@
         <li class="nav-item">
           <a class="nav-link{% if page.url == '/' %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
         </li>
+        {% assign current_section = page.url | split: '/' | slice: 1 | first | remove: '.html' %}
         {% for nav in site.nav_pages %}
         <li class="nav-item">
-          <a class="nav-link{% if page.url contains nav.name %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/{{ nav.name }}">{{ nav.name | capitalize }}</a>
+          <a class="nav-link{% if current_section == nav.name %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/{{ nav.name }}">{{ nav.name | capitalize }}</a>
         </li>
         {% endfor %}
       </ul>
